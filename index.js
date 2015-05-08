@@ -30,6 +30,8 @@ Pinhead.prototype.read = function() {
   var _this = this;
   var previous = -1;
   var changeTime = Date.now();
+  
+  this.emit('ready');
 
   setInterval(function () {
     gpio.read(_this.pin, function (err, val) {
