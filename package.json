@@ -1,0 +1,22 @@
+{
+  "name": "pinhead",
+  "version": "1.0.0",
+  "description": "raspberry pi pin listener",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pebblecode/pinhead.git"
+  },
+  "author": "sam desborough",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pebblecode/pinhead/issues"
+  },
+  "homepage": "https://github.com/pebblecode/pinhead#readme",
+  "dependencies": {
+    "rpi-gpio": "^0.5.1"
+  }
+}
